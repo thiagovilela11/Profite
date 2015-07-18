@@ -1,2 +1,7 @@
-17:53 18/07/2015
+---README---
+
+Projeto de desenvolvimento da home da Profit.
+Teste de Seleção.
+
+Att.
 

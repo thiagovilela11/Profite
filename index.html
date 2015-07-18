@@ -1,0 +1,201 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
+<title>Profite Marketing para comércio eletrônico</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"> </script>
+		<script type="text/javascript" src="js/jquery.cycle.all.js"> </script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				
+				$('.Slides ul').cycle({
+				fx:      	'fade', 
+			    pager:	$('.pager'),
+				pagerAnchorBuilder: function(index, DOMelement){
+					return '<a></a>';
+					
+					},
+				activePagerClass: 'sliderativo',
+				delay: 		3000,
+				});
+			});
+
+		</script>
+</head>
+
+<body>
+<!---COMEÇO DO SITE MAIN--->
+	<main>
+<!------COMEÇO DO HEADER--->
+		<header>
+            <section id="topo-info">
+            	<article id="logo">
+                <img src="images/logo.png">
+                </article>
+                
+                <article id="bloco-topo_1">
+                <p>FOTOS DO CASAMENTO</p>
+                </article>
+                
+              <article id="bloco-topo">
+                <p>O FELIPE MACHADO</p>
+                </article>
+            </section>
+        </header>
+<!-----TERMINO DO HEADER--->
+<!----INICIO DO CONTAINER-->
+		<section id="slider-container">
+        	<article id="slider_content">
+            	<div class="box">
+                    <span class="pager"></span>
+                    <div class="Slides">
+                        <ul>
+                            <li><a href="#" title="Slider" border="0"><img src="images/slide_1.jpg" alt="Primeira Imagem" width="100%" /></a></li>
+                            <li><a href="#" title="Slider" border="0"><img src="images/slide_2.jpg" alt="Segunda Imagem" width="100%" /></a></li>
+                            <li><a href="#" title="Slider" border="0"><img src="images/slide_3.jpg" alt="Terceira<hr>
+ Imagem" width="100%" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div id="divclear"></div>
+        <section id="blocos-home">
+        	<div id="conteudo_meio">
+            <div id="separador-blocos"></div>
+            <!--COMEÇO DO LOOP DE PRODUTOS---->
+            	<article id="loop-produto">
+                    <content>
+                   		<img src="images/produto_1.png" align="center">
+                        <h1>Sanalha Ferracini Ecológica</h1>
+                        <div align="center">
+                          <div class="star">
+                            <input name="rating" id="star-1" value="1" type="radio" class="radio radio-1"/>
+                            <input name="rating" id="star-2" value="2" type="radio" class="radio radio-2"/>
+                            <input name="rating" id="star-3" value="3" type="radio" class="radio radio-3"/>
+                            <input name="rating" id="star-4" value="4" type="radio" class="radio radio-4"/>
+                            <input name="rating" id="star-5" value="5" type="radio" class="radio radio-5"/>
+                            <label for="star-1" class="star-item star-item-1">1 stars</label>
+                            <label for="star-2" class="star-item star-item-2">2 stars</label>
+                            <label for="star-3" class="star-item star-item-3">3 stars</label>
+                            <label for="star-4" class="star-item star-item-4">4 stars</label>
+                            <label for="star-5" class="star-item star-item-5">5 stars</label>
+                          </div>
+                        </div>
+                        <h4><br /></h4>
+                        <p>Por: <strong><em>R$ 95,92</em></strong><br> ou <strong><em>até 4X</em></strong> de <strong><em>R$ 23,98</em></strong></p>
+                        <h3><a href="#" border="0" title="Comprar"><img src="images/btn_comprar.png" alt="Comprar"></a></h3>
+                        <h2>Economize: R$ 43,98</h2>
+                    </content>
+                </article>
+                <!--TERMINO DO LOOP DE PRODUTOS--->
+                <!--COMEÇO DO LOOP DE PRODUTOS---->
+                <article id="loop-produto">
+                    <content>
+                   		<img src="images/produto_2.png" align="center">
+                        <h1>Chinelo Kildare</h1>
+                        <div align="center">
+                          <div class="star">
+                            <input name="rating" id="star-1" value="1" type="radio" class="radio radio-1"/>
+                            <input name="rating" id="star-2" value="2" type="radio" class="radio radio-2"/>
+                            <input name="rating" id="star-3" value="3" type="radio" class="radio radio-3"/>
+                            <input name="rating" id="star-4" value="4" type="radio" class="radio radio-4"/>
+                            <input name="rating" id="star-5" value="5" type="radio" class="radio radio-5"/>
+                            <label for="star-1" class="star-item star-item-1">1 stars</label>
+                            <label for="star-2" class="star-item star-item-2">2 stars</label>
+                            <label for="star-3" class="star-item star-item-3">3 stars</label>
+                            <label for="star-4" class="star-item star-item-4">4 stars</label>
+                            <label for="star-5" class="star-item star-item-5">5 stars</label>
+                          </div>
+                        </div>
+                        <h4><em>De R$ 99,90</em></h4>
+                        <p>Por: <strong><em>R$ 79,92</em></strong><br> ou <strong><em>até 3X</em></strong> de <strong><em>R$ 26,64</em></strong></p>
+                        <h3><a href="#" border="0" title="Comprar"><img src="images/btn_comprar.png" alt="Comprar"></a></h3>
+                        <h2>Economize: R$ 19,98</h2>
+                    </content>
+                </article>
+                <!--TERMINO DO LOOP DE PRODUTOS--->
+                <!--COMEÇO DO LOOP DE PRODUTOS---->
+                <article id="loop-produto">
+                    <content>
+                   		<img src="images/produto_3.png" align="center">
+                        <h1>Tênis Ferracini Week</h1>
+                        <div align="center">
+                          <div class="star">
+                            <input name="rating" id="star-1" value="1" type="radio" class="radio radio-1"/>
+                            <input name="rating" id="star-2" value="2" type="radio" class="radio radio-2"/>
+                            <input name="rating" id="star-3" value="3" type="radio" class="radio radio-3"/>
+                            <input name="rating" id="star-4" value="4" type="radio" class="radio radio-4"/>
+                            <input name="rating" id="star-5" value="5" type="radio" class="radio radio-5"/>
+                            <label for="star-1" class="star-item star-item-1">1 stars</label>
+                            <label for="star-2" class="star-item star-item-2">2 stars</label>
+                            <label for="star-3" class="star-item star-item-3">3 stars</label>
+                            <label for="star-4" class="star-item star-item-4">4 stars</label>
+                            <label for="star-5" class="star-item star-item-5">5 stars</label>
+                          </div>
+                        </div>
+                        <h4><em>De R$ 299,90</em></h4>
+                        <p>Por: <strong><em>R$ 183,92</em></strong><br> ou <strong><em>até 9X</em></strong> de <strong><em>R$ 20,43</em></strong></p>
+                        <h3><a href="#" border="0" title="Comprar"><img src="images/btn_comprar.png" alt="Comprar"></a></h3>
+                        <h2>Economize: R$ 45,98</h2>
+                    </content>
+                </article>
+                <!--TERMINO DO LOOP DE PRODUTOS--->
+                <!--COMEÇO DO LOOP DE PRODUTOS---->
+                <article id="loop-produto">
+                    <content>
+                   		<img src="images/produto_4.png" align="center">
+                        <h1>Tênis Democrata Fan</h1>
+                        <div align="center">
+                          <div class="star">
+                            <input name="rating" id="star-1" value="1" type="radio" class="radio radio-1"/>
+                            <input name="rating" id="star-2" value="2" type="radio" class="radio radio-2"/>
+                            <input name="rating" id="star-3" value="3" type="radio" class="radio radio-3"/>
+                            <input name="rating" id="star-4" value="4" type="radio" class="radio radio-4"/>
+                            <input name="rating" id="star-5" value="5" type="radio" class="radio radio-5"/>
+                            <label for="star-1" class="star-item star-item-1">1 stars</label>
+                            <label for="star-2" class="star-item star-item-2">2 stars</label>
+                            <label for="star-3" class="star-item star-item-3">3 stars</label>
+                            <label for="star-4" class="star-item star-item-4">4 stars</label>
+                            <label for="star-5" class="star-item star-item-5">5 stars</label>
+                          </div>
+                        </div>
+                        <h4><em>De R$ 219,90</em></h4>
+                        <p>Por: <strong><em>R$ 159,92</em></strong><br> ou <strong><em>até 7X</em></strong> de <strong><em>R$ 22,84</em></strong></p>
+                        <h3><a href="#" border="0" title="Comprar"><img src="images/btn_comprar.png" alt="Comprar"></a></h3>
+                        <h2>Economize: R$ 59,98</h2>
+                    </content>
+                </article>
+                <!--TERMINO DO LOOP DE PRODUTOS--->
+            </div>
+        </section>
+        <div id="divclear"></div>
+        <div id="separador-blocos"></div>
+<!---TERMINO DO CONTAINER-->
+<!------COMEÇO DO RODAPE--->        
+        <footer class="rodape">
+        	<article id="rodape-conteudo">
+            	<div id="bloco-rodape_1">
+                <img src="images/rj.png">
+                <p>Rua do acre, 77 - sala 1108  Centro - Rio de Janeiro <br /><strong>tel.: +55 (21) 2263.6044</strong></p>
+                </div>
+                
+                <div id="bloco-rodape_2">
+                <img src="images/sp.png">
+                <p>Rua Cardoso de melo, 1750 6º Andar Vila Olímpica <br /><strong>tel.: +55 (21) 2263.6044</strong></p>
+                </div>
+                
+                <div id="bloco-rodape_3">
+                <h1><a href="#" title="Contato" border="0"><img src="images/contato.jpg"></a></h1>
+                <h1><a href="#" title="Atendimento On-line" border="0"><img src="images/faleconosco.jpg"></a></h1>
+                </div>
+            </article>
+        </footer>
+<!-----TERMINO DO RODAPE--->   
+	</main>
+<!--TERMINO DO SITE MAIN--->
+</body>
+</html>
